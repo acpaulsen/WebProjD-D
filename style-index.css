@@ -18,13 +18,12 @@ body {
 .item {
   font-size: 200%;
   text-align: center;
-  background-color: slategray;
+  background-color: #687a6a;
   margin: 10px;
   padding: 2em;
   flex: 1 280px;
   color: black;
   opacity: 70%;
-  width: 15%;
 }
 
 h1 {
