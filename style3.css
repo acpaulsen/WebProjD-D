@@ -6,16 +6,17 @@
 body {
   margin: 0;
   padding: 0;
-  background: #c3d9f7;
+  background: #c5cde0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: #283961;
 }
 
 h1,
 h2 {
-  color: black;
+  color: #283961;
   opacity: 100%;
   text-align: center;
 }
@@ -24,6 +25,7 @@ p {
   width: 60%;
   margin-left: 20%;
   margin-right: 20%;
+  text-align: center;
 }
 
 .container {
