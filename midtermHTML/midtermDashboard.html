@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BookSmart</title>
+    <link rel="stylesheet" href="Dashboard.css" />
+
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript">
+      google.charts.load("current", {
+        packages: ["geochart"],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ["Country", "Popularity"],
+          ["Germany", 2],
+          ["United States", 3],
+          ["Brazil", 4],
+          ["Canada", 5],
+        ]);
+
+        var options = {
+          colorAxis: { colors: ["#ffe8e0", "#000278"] },
+        };
+
+        var chart = new google.visualization.GeoChart(
+          document.getElementById("regions_div")
+        );
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+</html>
+
+<body>
+  <nav>
+    <a href="midtermDashboard.html" id="home"> BookSmart </a>
+    <a href="midtermLanding.html" id="whiteTab"> Log Out</a>
+    <a href="midtermDashboard.html" id="tab" style="color: #6c98c4">
+      Dashboard
+    </a>
+    <a href="midtermCurrent.html" id="tab"> Currently Reading </a>
+    <a href="midtermHelp.html" id="tab"> MyLibrary </a>
+  </nav>
+
+  <h2>Dashboard</h2>
+  <div class="container" style="float: left; margin-left: 15%; margin-top: 5%">
+    <h2>Did you read today?</h2>
+    <a href="midtermCurrent.html" id="whiteTab"> Log Progress</a>
+  </div>
+  <div class="container" style="float: right">
+    <div id="regions_div" style="width: 40%"></div>
+  </div>
+</body>

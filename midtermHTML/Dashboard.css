@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Didot;
+  src: url(Antic_Didone/AnticDidone-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 20px;
+  background: #064380;
+  color: white;
+  display: inline-block;
+  width: 98%;
+  justify-self: normal;
+}
+
+h1 {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+}
+#whiteTab {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #eaa88f;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #eaa88f;
+  float: right;
+  margin: 10px;
+}
+
+#whiteTab:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
+
+#tab {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #064380;
+  float: right;
+  margin: 10px;
+}
+
+#tab:hover {
+  color: #6c98c4;
+}
+
+#home {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+  border: none;
+  background-color: #064380;
+  color: white;
+  margin: 10px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  float: center;
+  font-family: Didot;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+p {
+  color: #064380;
+  font-family: Didot;
+  font-size: 25px;
+  text-align: left;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  
+}
