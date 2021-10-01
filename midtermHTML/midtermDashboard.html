@@ -24,11 +24,39 @@
         ]);
 
         var options = {
+          title: "Where Your Books Come From",
           colorAxis: { colors: ["#ffe8e0", "#000278"] },
         };
 
         var chart = new google.visualization.GeoChart(
           document.getElementById("regions_div")
+        );
+
+        chart.draw(data, options);
+      }
+    </script>
+
+    <script type="text/javascript">
+      google.charts.load("current", { packages: ["corechart"] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ["Year", "Books"],
+          ["2004", 10],
+          ["2005", 11],
+          ["2006", 6],
+          ["2007", 10],
+        ]);
+
+        var options = {
+          title: "Your Literary Journey",
+          curveType: "function",
+          legend: { position: "bottom" },
+        };
+
+        var chart = new google.visualization.LineChart(
+          document.getElementById("curve_chart")
         );
 
         chart.draw(data, options);
@@ -45,15 +73,38 @@
       Dashboard
     </a>
     <a href="midtermCurrent.html" id="tab"> Currently Reading </a>
-    <a href="midtermHelp.html" id="tab"> MyLibrary </a>
+    <a href="midtermLibrary.html" id="tab"> MyLibrary </a>
   </nav>
 
-  <h2>Dashboard</h2>
-  <div class="container" style="float: left; margin-left: 15%; margin-top: 5%">
+  <div
+    class="container"
+    style="
+      float: left;
+      margin-left: 15%;
+      margin-top: 15%;
+      flex-direction: column;
+    "
+  >
     <h2>Did you read today?</h2>
-    <a href="midtermCurrent.html" id="whiteTab"> Log Progress</a>
+    <a href="midtermLogProg.html" id="whiteTab" style="margin-left: 30%">
+      Log Progress</a
+    >
   </div>
-  <div class="container" style="float: right">
-    <div id="regions_div" style="width: 40%"></div>
+  <div
+    class="container"
+    style="
+      float: right;
+      display: flex-box;
+      flex-direction: column;
+      flex-shrink: inherit;
+      justify-content: baseline;
+      align-content: center;
+    "
+  >
+    <div id="regions_div" style="width: 40%; margin-right: 100%"></div>
+    <div
+      id="curve_chart"
+      style="width: 100%; margin-right: 100%; margin-top: 10%"
+    ></div>
   </div>
 </body>

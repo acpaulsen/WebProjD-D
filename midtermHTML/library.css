@@ -82,25 +82,33 @@ h2 {
   font-weight: bold;
   font-size: 40px;
 }
-
-p {
-  color: #064380;
-  font-family: Didot;
-  font-size: 25px;
-  text-align: left;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
 .container {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-#regions_div {
-  border: 5px black;
+.book {
+  font-size: 200%;
+  text-align: center;
+  background-color: #eaa88f;
+  margin: 10px;
+  padding: 2em;
+  flex: 1 280px;
+  color: #064380;
+  opacity: 100%;
 }
 
+h1 {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  font-family: Didot;
+}
+
+.book:hover {
+  background-color: #f5c7c4;
+}

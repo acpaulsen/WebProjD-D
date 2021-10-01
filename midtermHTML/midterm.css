@@ -115,25 +115,27 @@ button {
 }
 
 #submitMain {
-  background-color: white;
+  background-color: #ed9a7b;
   padding: 20px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 6px;
-  color: #ed9a7b;
+  color: white;
   font-family: "Oswald";
   font-size: 30px;
   text-decoration: none;
   margin-left: 50%;
   margin-right: 50%;
-  border: 2px solid #ed9a7b;
+  border: 2px solid white;
+  border-radius: 55px;
   justify-self: center;
   margin: 10px;
 }
 
 #submitMain:hover {
-  background-color: #ed9a7b;
-  color: white;
+  background-color: white;
+  color: #ed9a7b;
+  border-color: #ed9a7b;
 }
 
 .container {
@@ -156,6 +158,7 @@ button {
   margin: 5% auto 15% auto;
   border: 1px solid #888;
   width: 80%;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .modal {
@@ -243,3 +246,5 @@ button:hover {
     transform: scale(1);
   }
 }
+
+/* JOIN NOW PAGE */

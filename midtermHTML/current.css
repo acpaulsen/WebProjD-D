@@ -93,14 +93,44 @@ p {
   margin-right: 20%;
 }
 
+#log {
+  background-color: white;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #064380;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #064380;
+  float: right;
+  margin: 10px;
+}
+
+#log:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
 .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.cont {
   align-items: baseline;
-  justify-content: center;
+  margin-top: 20%;
+  margin-right: 20%;
 }
 
-#regions_div {
-  border: 5px black;
+#myBar {
+  width: 60%;
+  height: 30px;
+  background-color: #eaa88f;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: #064380;
 }
-
