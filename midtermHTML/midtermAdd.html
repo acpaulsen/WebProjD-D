@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BookSmart</title>
+    <link rel="stylesheet" href="logprog.css" />
+  </head>
+</html>
+
+<body>
+  <nav>
+    <a href="midtermDashboard.html" id="home"> BookSmart </a>
+    <a href="midtermLanding.html" id="whiteTab"> Log Out</a>
+    <a href="midtermDashboard.html" id="tab"> Dashboard </a>
+    <a href="midtermCurrent.html" id="tab">
+      Currently Reading
+    </a>
+    <a href="midtermLibrary.html" id="tab"> MyLibrary </a>
+  </nav>
+</body>
+
+<h2 style="text-align: center">Add a New Book</h2>
+<div class="cont">
+  <div class="container" style="float: left">
+    <textarea id="author" rows="1" cols="40" required >Author</textarea
+        >
+        <br></br>
+    <label for="startp"><b>Number of Pages</b></label>
+    <input type="number" placeholder="" name="startp" required />
+    <br></br>
+    <textarea id="genre" rows="1" cols="40" required >Genre</textarea
+        >
+        <br></br>
+    <label for="date"><b>Starting Date</b></label>
+    <input type="date" placeholder="" name="date" required />
+    
+  </div>
+  
+  <div class="container">
+    <textarea id="notes" name="notes" rows="2" cols="50" style="float: right">
+Notes
+        </textarea
+    >
+  </div>
+</div>

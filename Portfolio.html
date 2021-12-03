@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Amelia Paulsen Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css" />
+  </head>
+  <body>
+      <nav>
+        <a style="float: left; padding-left: 30px; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">AP</a>
+        <a href="#contact">Contact</a>
+        <a href="#works">Works</a>
+        <a href="#aboutMe">About Me</a>
+        
+      </nav>
+        <div class="bridgecont">
+            <h1 style="padding-top: 20%; padding-left: 43%;">Amelia Paulsen</h1>
+            <h1 class="whiteStyle" style="padding-left:45%">Application Developer / User Experience Engineer</h1>
+        </div>
+         <!--***************ABOUT ME******************-->
+        <div id="aboutMe">
+            <br></br>
+            <h2 style="text-align: left; padding-left: 47%; ">About Me</h2>
+            
+            <p style="font-size: 20px;">Hello World! My name is Amelia, a third-year Computer Science Major specilizing in User Interface and Application Design. I am pursuing a Bachelor
+                of Arts in Computer Science at The Univeristy of North Carolina at Chapel Hill and a certificate in Decision Sciences
+                from Duke University. 
+            </p>
+            <br></br>
+            <a style="margin-left: 48%; float:none;" class="Resume" target="_blank" href="PortfolioImages/PaulsenResume.pdf">Resume</a>
+            <br></br>
+            <br></br>
+  
+        </div>
+        <!--VALUES-->
+        <div class="scont">
+            <h1 style="padding-top: 23%; padding-right: 45%;">Clean, effective design.</h1>
+            <h1 class="whiteStyle" style="padding-right:45%">Values driven development.</h1>
+        </div>
+        <!--***************WORKS******************-->
+        <div  id="works">
+            <h2 style="text-align: left; padding-left: 46%;">Works</h2>
+            <div class="container"> 
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="PortfolioImages/VG.jpg" alt="BookSmart" style="width:100%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Vanguard FIG Dashboard</h1>
+                        <p>The FIG Dashboard is an AWS hosted web application used to check for data discrepencies and automate the retriggering of downstream processes to correct any such discrepencies. The application was build using Dash extensions, GraphQL queries, and API based data requests.</p>
+                        <p>Developed Summer 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="PortfolioImages/BS.jpg" alt="BookSmart" style="width:105%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Book Smart</h1>
+                        <p>Book Smart is a web application which I developed so that readers can track their day to day reading progress as well as trends with their reading overall. The application uses the Google Books API to automate book logging information and interacts with a MongoDB backend to store progress information.</p>
+                        <p>Developed Fall 2021</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="PortfolioImages/CC.jpg" alt="BookSmart" style="width:105%;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Crew Connect</h1>
+                        <p>Crew Connect is an internal tool developed as an extraacurricular option during my summer internship with Vanguard. With a team of four other interns, we built a resource for connecting crew members with mentors and mentees who have similar interests and identities.</p>
+                        <p>Developed Summer 2021</p>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+        </div>
+        <!--fiddle leaf fig-->
+        <div class="fiddlecont">
+            <h1 style="padding-top: 15%; padding-left: 45%;">Creative</h1>
+            <br></br>
+            <h1 style= "padding-left: 45%;">Intellectual</h1>
+            <br></br>
+            <h1 class="whiteStyle" style="padding-left:45%">Collaborative</h1>
+
+        </div>
+         <!--***************CONTACT ME******************-->
+        <div id="contact">
+            <br></br>
+            <h2 style="text-align: left; padding-left: 46%; ">Contact Me</h2>
+            <br> </br>
+            <p style="text-align: left; padding-left: 43%;" onclick="copyEmail();">Email: apaulsen43@gmail.com</p>
+                <script>
+                    function copyEmail() {
+                    /* Copy the text inside the text field */
+                    navigator.clipboard.writeText("apaulsen43@gmail.com");
+                    }
+                </script>
+            <p style="text-align: left; padding-left: 45%;">Phone: 703-859-1901</p>
+            <br></br>
+            <br></br>
+            <br></br>
+  
+        </div>
+  </body>
+</html>
