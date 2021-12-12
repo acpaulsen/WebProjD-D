@@ -1,0 +1,87 @@
+body {
+    background: #eaa88f;
+  }
+  
+  main {
+    max-width: 610px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #064380;
+  }
+  
+  .user-display {
+    text-align: center;
+    color: #064380;
+    border: 2px solid#064380;
+    border-radius: 10px;
+    display: inline-block;
+    width: 15%;
+    margin-right: 5px; 
+  }
+  
+  .instructions {
+    text-align: left;
+    padding-left: 5px; 
+    color:#064380;
+    border: 2px solid #064380;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    text-align: center;
+  }
+  
+  #messageBox {
+    text-align: center;
+    color:#064380;
+    border: 2px solid #064380;
+    border-radius: 10px;
+  }
+  
+  .board {
+      width: 520px;
+      height: 520px;
+      margin: 20px;
+      border: 25px solid white;
+  }
+  
+  .cell {
+      float: left;
+      width: 50px;
+      height: 50px;
+      background-image: radial-gradient(white);
+      border: 1px solid black;
+      font-size:50px;
+      text-align:center;
+      display: table-cell;
+      vertical-align:middle;
+      line-height: 50px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #064380;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px white;
+  }
+  
+  .button:hover {background-color: #064380}
+  
+  .button:active {
+    background-color: #064380;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+  }
+  

@@ -1,0 +1,250 @@
+@font-face {
+  font-family: Didot;
+  src: url(Antic_Didone/AnticDidone-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 20px;
+  background: #064380;
+  color: white;
+  display: inline-block;
+  width: 98%;
+  justify-self: normal;
+}
+
+h1 {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+}
+
+p {
+  color: #064380;
+  font-family: Didot;
+  font-size: 45px;
+  text-align: left;
+  margin-left: 25px;
+  float: left;
+}
+
+button {
+  float: right;
+  background-color: #064380;
+  color: white;
+  padding: 10px 25px;
+  border: 2px solid white;
+  border-radius: 10%;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.buttonPink {
+  color: #eaa88f;
+  border: 2px solid #eaa88f;
+  background-color: #064380;
+}
+
+.buttonTop {
+  border: none;
+  color: white;
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+#submit {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #eaa88f;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #eaa88f;
+  float: right;
+  margin: 10px;
+}
+
+#submit:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
+
+#submitWhite {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #064380;
+  float: right;
+  margin: 10px;
+}
+
+#submitWhite:hover {
+  color: #6c98c4;
+}
+
+#home {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+  border: none;
+  background-color: #064380;
+  color: white;
+  margin: 10px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+#submitMain {
+  background-color: #ed9a7b;
+  padding: 20px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 50%;
+  margin-right: 50%;
+  border: 2px solid white;
+  border-radius: 55px;
+  justify-self: center;
+  margin: 10px;
+}
+
+#submitMain:hover {
+  background-color: white;
+  color: #ed9a7b;
+  border-color: #ed9a7b;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.cont {
+  align-items: baseline;
+  margin-top: 20%;
+  margin-right: 20%;
+}
+
+/* MODAL SIGN IN PAGE CSS */
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: none;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #eaa88f;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #eaa88f;
+  float: right;
+  margin: 10px;
+}
+
+button:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #064380;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* JOIN NOW PAGE */

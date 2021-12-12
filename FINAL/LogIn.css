@@ -1,0 +1,175 @@
+@font-face {
+  font-family: Didot;
+  src: url(Antic_Didone/AnticDidone-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 20px;
+  background: #064380;
+  color: white;
+  display: inline-block;
+  width: 98%;
+  justify-self: normal;
+}
+
+h1 {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+}
+
+p {
+  color: #064380;
+  font-family: Didot;
+  font-size: 45px;
+  text-align: left;
+  margin-left: 25px;
+  float: left;
+}
+
+#submit {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #064380;
+  float: right;
+  margin: 10px;
+}
+
+#home {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+  border: none;
+  background-color: #064380;
+  color: white;
+  margin: 10px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.container {
+  padding: 16px;
+  margin-top: 10%;
+  justify-self: center;
+  width: 50%;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Full-width input fields */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #eaa88f;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #eaa88f;
+  float: right;
+  margin: 10px;
+}
+
+button:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: none;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

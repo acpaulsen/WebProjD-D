@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Didot;
+  src: url(Antic_Didone/AnticDidone-Regular.ttf);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 20px;
+  background: #064380;
+  color: white;
+  display: inline-block;
+  width: 98%;
+  justify-self: normal;
+}
+
+h1 {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+}
+#whiteTab {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: #eaa88f;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #eaa88f;
+  float: right;
+  margin: 10px;
+}
+
+#whiteTab:hover {
+  border: 2px solid #eaa88f;
+  background: #eaa88f;
+  color: #064380;
+}
+
+#tab {
+  background-color: #064380;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 6px;
+  color: white;
+  font-family: "Oswald";
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #064380;
+  float: right;
+  margin: 10px;
+}
+
+#tab:hover {
+  color: #6c98c4;
+}
+
+#home {
+  text-align: left;
+  float: left;
+  font-family: Didot;
+  font-weight: bold;
+  border: none;
+  background-color: #064380;
+  color: white;
+  margin: 10px;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  float: center;
+  font-family: Didot;
+  font-weight: bold;
+  font-size: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: 50%;
+  margin-bottom: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 3%;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+}
+
+input[type="text"],
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  padding-bottom: 25px;
+}
+
+label {
+  margin-top: 15 px;
+}
+
+
+button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #064380;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}

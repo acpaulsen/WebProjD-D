@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BookSmart</title>
+    <link rel="stylesheet" href="logprog.css" />
+  </head>
+</html>
+
+<body>
+  <nav>
+    <a href="midtermDashboard.html" id="home"> BookSmart </a>
+    <a href="midtermLanding.html" id="whiteTab"> Log Out</a>
+    <a href="midtermDashboard.html" id="tab"> Dashboard </a>
+    <a href="midtermCurrent.html" id="tab" style="color: #6c98c4">
+      Currently Reading
+    </a>
+    <a href="midtermLibrary.html" id="tab"> MyLibrary </a>
+  </nav>
+</body>
+
+<h2 style="text-align: center">Good Omens</h2>
+<div class="cont">
+  <div class="container" style="float: left">
+    <label for="date"><b>Date</b></label>
+    <input type="date" placeholder="" name="date" required />
+
+    <label for="startp"><b>Starting Page</b></label>
+    <input type="number" placeholder="" name="startp" required />
+
+    <label for="startt"><b>Starting Time</b></label>
+    <input type="time" placeholder="" name="startt" required />
+
+    <label for="endp"><b>Ending Page</b></label>
+    <input type="number" placeholder="" name="endp" required />
+
+    <label for="endp"><b>Ending Time</b></label>
+    <input type="time" placeholder="" name="startt" required />
+  </div>
+
+  <div class="container">
+    <textarea id="notes" name="notes" rows="20" cols="50" style="float: right">
+Notes
+        </textarea
+    >
+  </div>
+
+</div>
+
+<button style="margin-left:45%;">Submit</button>
